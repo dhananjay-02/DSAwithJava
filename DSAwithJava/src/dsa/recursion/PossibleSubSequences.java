@@ -6,7 +6,7 @@ import java.util.List;
 public class PossibleSubSequences {
 
 	public static void printSubsequences(Integer index,Integer[] arr, List<Integer> subSequence) {
-		if(index==arr.length-1) {
+		if(index>arr.length-1) {
 			System.out.println(subSequence);
 			return;
 		}
